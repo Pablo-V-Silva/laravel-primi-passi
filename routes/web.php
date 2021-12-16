@@ -15,8 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
 
-Route::get('/', function () {
-    return view('secondWebsite');
-});
+Route::get('/secondWebsite', function () {
+  $tricks= [
+    'Ollie', 'Kickflip', 'Pop Shuve It', 'Varial flip', '3Flip', 'Darkslide'
+  ];
+  return view('secondWebsite', compact('tricks'));
+})->name('secondWebsite');

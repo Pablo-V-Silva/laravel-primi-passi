@@ -67,14 +67,13 @@
         <div class="flex-center position-ref full-height">
 
             <div class="content">
+              <nav class="links">
+                  <a href="/secondWebsite">Tricks</a> 
+              </nav>
                 <div class="title m-b-md">
-                    Laravel
+                    Hello World
                 </div>
 
-                <div class="links">
-                    <a href="https://laravel.com/docs">boob</a>
-                    
-                </div>
             </div>
         </div>
     </body>
